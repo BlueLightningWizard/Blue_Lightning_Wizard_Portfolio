@@ -1,0 +1,80 @@
+@keyframes rotate
+{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes nav-link-highlight
+{
+    from {filter: drop-shadow(0px 0px 0px white);}
+    to {filter: drop-shadow(0px 0px 20px white);}
+}
+
+body
+{
+    background-color: lightblue;
+    margin: 0 0 0;
+}           
+    
+div
+{
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+img.stars
+{   
+    filter: drop-shadow(0px 0px 3px white);
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.nav
+{
+    
+    position: relative;
+    bottom: 70px;
+    left: 250px;
+    
+    background-color: #00c3f5;
+    
+    font: bold 20px "Times New Roman", serif;
+    
+    text-align: center;
+    color: white;
+    padding: 10px 40px;
+    user-select: none;
+    
+    border: 3px solid #0018eb;
+    border-radius: 10px; 
+    
+    margin-left: 50px;
+    
+}
+
+.nav:hover
+{
+    color: #0018eb;
+    
+    animation-name: nav-link-highlight;
+    animation-duration: 0.25s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+span
+{
+    border: 2px solid green;
+}
+
+@media screen and (max-width: 480px)
+{
+    body
+    {
+        background-color: darkblue;
+    }
+}
