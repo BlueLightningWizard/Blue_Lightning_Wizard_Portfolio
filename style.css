@@ -14,8 +14,6 @@ body
 {
     background-color: lightblue;
     margin: 0 0 0;
-    overflow: scroll;
-    white-space: nowrap;
 }           
     
 div
