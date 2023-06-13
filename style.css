@@ -14,7 +14,7 @@ body
 {
     background-color: lightblue;
     margin: 0 0 0;
-    overflow: hidden;
+    overflow: scroll;
     white-space: nowrap;
 }           
     
