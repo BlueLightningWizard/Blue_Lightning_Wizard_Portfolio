@@ -18,6 +18,7 @@ body
     
 div
 {
+    width: 100%;
     overflow: hidden;
     white-space: nowrap;
 }
