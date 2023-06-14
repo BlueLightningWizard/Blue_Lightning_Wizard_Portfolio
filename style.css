@@ -14,17 +14,13 @@ body
 {
     background-color: lightblue;
     margin: 0 0 0;
-}           
-    
-div
-{
     overflow: hidden;
     white-space: nowrap;
-}
+}           
 
 img.stars
 {   
-    filter: drop-shadow(0px 0px 3px white);
+    filter: drop-shadow(0px 0px 5px white);
     animation-name: rotate;
     animation-duration: 10s;
     animation-direction: normal;
@@ -37,7 +33,6 @@ img.stars
     
     position: relative;
     bottom: 70px;
-    left: 250px;
     
     background-color: #00c3f5;
     
