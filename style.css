@@ -76,6 +76,7 @@ span
 {
     body
     {
+        background-color: lightblue;
         width: 50%;
     }
 }
