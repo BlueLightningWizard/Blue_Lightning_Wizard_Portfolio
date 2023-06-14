@@ -71,11 +71,3 @@ span
 {
     border: 2px solid green;
 }
-
-@media screen and (width > 480px)
-{
-    span.nav_bar
-    {
-        display: none;
-    }
-}
