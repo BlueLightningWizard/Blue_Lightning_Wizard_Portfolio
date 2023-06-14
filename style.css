@@ -14,7 +14,6 @@ body
 {
     background-color: lightblue;
     margin: 0 0 0;
-    overflow: auto;
 }           
     
 div
@@ -73,10 +72,10 @@ span
     border: 2px solid green;
 }
 
-@media screen and (width < 720px)
+@media screen and (width > 480px)
 {
-    body
+    span.nav_bar
     {
-        background-color: lightblue;
+        display: block;
     }
 }
