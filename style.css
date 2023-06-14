@@ -71,3 +71,11 @@ span
 {
     border: 2px solid green;
 }
+
+@media screen and (width < 720px)
+{
+        body
+        {
+            background-color: darkblue;
+        }
+}
