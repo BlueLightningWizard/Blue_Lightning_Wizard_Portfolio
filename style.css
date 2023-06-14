@@ -76,6 +76,6 @@ span
 {
     span.nav_bar
     {
-        display: block;
+        display: none;
     }
 }
